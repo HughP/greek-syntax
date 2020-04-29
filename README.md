@@ -118,3 +118,30 @@ To build a Docker image, use this script:
 
 - *docker* - Files we use to build the Docker container.
 - *python* - Source code for the Python module that we install in the Docker container.
+- *data* - Where data from corpora is to be placed.
+
+```
+.
+├── data
+│   ├── build
+│   ├── github
+│   ├── load_data.sh
+│   └── README.md
+├── docker
+│   ├── assets
+│   ├── build.sh
+│   ├── Dockerfile
+│   └── VERSION
+├── img
+├── LICENSE
+├── notebooks
+│   ├── AskingQuestions.ipynb
+│   ├── greeksyntax-tutorial.ipynb
+│   ├── Greek\ Syntax\ Tutorial.ipynb
+│   ├── Reflexive\ Pronouns.ipynb
+│   ├── SplitConstituents.ipynb
+│   └── Verbless\ Clauses.ipynb
+├── python
+└── README.md
+
+```
